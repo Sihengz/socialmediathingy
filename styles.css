@@ -13,7 +13,7 @@ h1 {
 h2 {
     text-align: center;
     padding: 15px;
-    font-size: large;
+
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-weight: bolder;
     color: #BDCAF2;
@@ -24,7 +24,6 @@ p {
     padding: auto;
     font-size: large;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    font-weight: bolder;
     color: #FDCAF2;
     background-color: #9277DE;
     padding: 10px;
@@ -34,5 +33,5 @@ table, th, td {
     background-color: #FF559E;
     border-collapse: collapse;
     padding: 10px;
-    margin: 20%;
+    margin: 10%;
   }

@@ -31,7 +31,7 @@
         async function getPost() {
             let response;
             for(j=1;j<=3;j++){
-                response2 = await fetch('https://jsonplaceholder.typicode.com/posts/' + i)
+                response2 = await fetch('https://jsonplaceholder.typicode.com/posts/' + j)
                 let json2 = await response2.json()
                 await $("#row2col" + j).append(`<p>${json2.body}</p>`);
             }
@@ -40,7 +40,7 @@
         async function getComment() {
             let response3;
             for(k=1;k<=3;k++){
-                response3 = await fetch('https://jsonplaceholder.typicode.com/comments/' + i)
+                response3 = await fetch('https://jsonplaceholder.typicode.com/comments/' + k)
                 let json3 = await response3.json()
                 await $("#row3col" + k).append(`<p>${json3.body}</p>`);
             }
