@@ -2,7 +2,7 @@ body {
     padding: 10px;
     background-color: #9177F2;
 }
-p {
+h2 {
     text-align: center;
     padding: auto;
     font-size: large;
@@ -11,3 +11,11 @@ p {
     color: #BDCAF2;
     background-color: #F277DE;
 }
+
+table, th, td {
+    border: 3px solid #FF559E;
+    background-color: #FF559E;
+    border-collapse: collapse;
+    padding: 10px;
+    margin: 33%;
+  }
